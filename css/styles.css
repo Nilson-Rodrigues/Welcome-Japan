@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #B20D33;
+    background-image: url('https://img.freepik.com/vetores-gratis/templo-japones-gradiente-com-sol_52683-44985.jpg?w=740&t=st=1665181201~exp=1665181801~hmac=e20bf4a68f4919e4c5eacd7db6b7961dfd3150bfae535da5270509cd461ce3a2');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#welcome {
+    display: block;
+    width: 33.3%;
+    height: 30%;
+    margin: 70px 0 0 50px;
+}
+
+.subtitulo {
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 7.5rem;
+}
+
+p {
+    text-align: start;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #FF888A, #F7559A);
+    transition: 0.5s;
+    padding: 10px 40px;
+    font-size: 1rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: linear-gradient(180deg, #FF888A, #F7559A);
+    box-shadow: 5px 5px 20px #FF888A, -5px 5px 20px #F7559A;
+}
